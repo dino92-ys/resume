@@ -1,0 +1,20 @@
+# 출력물 (md에서 생성되는 산출물이므로 추적하지 않음)
+# 제출용 확정본을 남기려면 git add -f 로 개별 추가
+*.pdf
+*.docx
+*.hwp
+*.hwpx
+
+# 임시 파일
+~$*
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터
+.vscode/
+.idea/
