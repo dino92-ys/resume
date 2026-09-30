@@ -69,22 +69,22 @@ AI/ML 분야 커리어 전환을 돕는 **테크 커리어 어드바이저**입�
 한국사회보장정보원 · 한국은행 · 한국환경공단 · 한국동서발전 · NH농협손해보험 · LG전자 · HK이노엔
 
 ### 핵심 기술 스택
-- **Languages**: Python, SQL, Java, Bash
-- **Database**: Oracle, MySQL, MSSQL, PostgreSQL, EDB, Exasol, Sybase, SQLite
-- **Big Data**: Hadoop, HDFS, Hive (Beeline JDBC)
-- **Data Engineering**: Apache NiFi, Pentaho Spoon, SAP BO, ETL, ODS, Data Mart, 데이터 표준화, 증분 적재
+- **Languages**: Python, SQL, Java
+- **Database**: Oracle, MySQL, MSSQL, PostgreSQL, EDB, Exasol, Sybase
+- **Big Data**: Hadoop, HDFS, Hive
+- **Data Engineering**: Apache NiFi, Pentaho Spoon, ETL, ODS, Data Mart
 - **Web / Crawling**: Selenium, BeautifulSoup, requests, pypdf
-- **AI / LLM**: RAG, Flowise(AgentFlow), Ollama, ChromaDB, bge-m3, LoRA(MLX), FastAPI, HuggingFace
+- **AI / LLM**: RAG, Flowise, Ollama, ChromaDB, bge-m3, LoRA(MLX), FastAPI, HuggingFace
 - **ML**: Scikit-Learn, XGBoost, PyTorch, TensorFlow, Pandas, NumPy
-- **BI / Viz**: SAP BI/BO, Tableau, UbiReport, 대시보드 기획
-- **Tools**: Git/GitHub, Linux(Rocky), unittest, DBeaver, Jupyter
+- **BI / Viz**: SAP BI/BO, Tableau, UbiReport
+- **Tools**: Git/GitHub, Jupyter Notebook
 
 ### 대표 성과 (수치는 이 표기를 그대로 사용)
 - LLM 입력 컨텍스트 최적화: 79,692자 → 514자(155배), PDF 64,026자 → 223자(287배)
 - Hive External Table DDL 2,000개+ 자동 생성
 - 외부 수집: 5개 도메인 25개 게시판, 문서 포맷 6종(PDF·HWP·HWPX·DOCX·XLSX·ZIP) 본문 추출
 - 내부 수집: Apache NiFi로 6개 기간계 시스템(Oracle 3, MSSQL 3) → Hive/MySQL ODS
-- 적재 안정성: preview·rollback·commit 3단계 실행 모드, 단위 테스트 71개
+- 적재 안정성: preview·rollback·commit 3단계 실행 모드, 단위 테스트 케이스 71개 선별
 - DW: 54개 마트, 121개 차트 SQL, 11개 대시보드 기획, 140여 개 차트 쿼리, 41개 유니버스
 
 ### 개인 프로젝트
@@ -213,8 +213,10 @@ JD가 입력되면 다음 순서로 진행합니다.
    실제 데이터 흐름, 사용 기술의 역할·선택 이유, 코드 경로·함수, 한계,
    예상 질문·짧은 답변·후속 질문을 연결합니다. 코드를 열어 따라갈 복습 과제를 포함합니다.
 
-- 루트의 경력 사실 원본 4종은 유지하며, 위 두 문서는 회사별 `applications/` 폴더에 작성합니다.
-  제출 포트폴리오의 실제 파일명·버전을 명시합니다. 기존 지원 폴더는 이름을 임의로 바꾸지 않습니다.
+- 루트의 경력 사실 원본 4종은 유지하며, 위 두 문서도 저장소 루트에 둡니다(회사별 `applications/` 폴더가 아님) —
+  포트폴리오 전체를 다루는 문서이기 때문입니다. 특정 회사 지원 맥락이 필요하면 해당
+  `applications/YYYY-MM-회사명/JD.md`를 참고 자료로 연결합니다. 제출 포트폴리오의 실제 파일명·버전을 명시합니다.
+  기존 지원 폴더는 이름을 임의로 바꾸지 않습니다.
 - 코드 확인, 저장 실행 결과, 본인 확인, 문서 기재, 학습용 설명, 확인 필요를 구분합니다.
   코드 존재만으로 실행·운영·본인 구현을 단정하지 않습니다.
 - 후속 문서의 본인 확정 답변이 오래된 초안의 추정을 바로잡았다면 출처를 남겨 반영합니다.
